@@ -7,7 +7,7 @@ A curated collection of custom software tools developed specifically for the **R
 
 ## 🔍 Project Overview
 
-This repository contains a modular set of applications built to leverage the performance capabilities of the **Raspberry Pi 5**. Whether you're deploying IoT sensors, managing GPIOs, or building a headless controller for estate automation—this suite has you covered.
+This repository contains a modular set of applications built to leverage the performance capabilities of the **Raspberry Pi 5**. Whether you're deploying IoT sensors, managing GPIOs, or building a headless controller for PI automation.
 
 ---
 
