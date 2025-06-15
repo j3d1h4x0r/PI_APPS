@@ -49,3 +49,34 @@ This repository contains a modular set of applications built to leverage the per
 ```bash
 git clone https://github.com/your-username/pi5-software-suite.git
 cd pi5-software-suite
+npm install
+```
+
+### Node.js Control Script
+
+After installing dependencies, you can run the command-line utility:
+
+```bash
+node pi_controller.js --help
+```
+
+This script provides several commands for interacting with Raspberry Pi hardware:
+
+- `gpio <pin> <value>`: Set a GPIO pin high or low.
+- `read-dht <type> <pin>`: Read temperature and humidity from a DHT sensor.
+- `i2c-scan`: Scan the I2C bus for connected devices.
+- `capture <file>`: Capture a photo using the Pi camera.
+
+Each command can be invoked using `node pi_controller.js <command>` or after global installation with `npm install -g .` by calling `pi-controller` directly.
+
+### Simulation Mode
+
+If you want to test the CLI without Raspberry Pi hardware or external Node.js dependencies, use the `pi_simulator.js` script instead. This script emulates the output of the hardware commands.
+
+Example:
+
+```bash
+node pi_simulator.js gpio 17 1
+```
+
+The simulator will print messages describing the actions it would perform.

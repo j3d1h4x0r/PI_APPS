@@ -1,0 +1,15 @@
+{
+  "name": "pi-apps",
+  "version": "1.0.0",
+  "description": "Raspberry Pi control CLI",
+  "main": "pi_controller.js",
+  "bin": {
+    "pi-controller": "./pi_controller.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "i2c-bus": "^5.2.2",
+    "node-dht-sensor": "^0.4.3",
+    "onoff": "^6.0.0"
+  }
+}
