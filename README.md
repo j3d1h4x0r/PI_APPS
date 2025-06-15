@@ -68,3 +68,15 @@ This script provides several commands for interacting with Raspberry Pi hardware
 - `capture <file>`: Capture a photo using the Pi camera.
 
 Each command can be invoked using `node pi_controller.js <command>` or after global installation with `npm install -g .` by calling `pi-controller` directly.
+
+### Simulation Mode
+
+If you want to test the CLI without Raspberry Pi hardware or external Node.js dependencies, use the `pi_simulator.js` script instead. This script emulates the output of the hardware commands.
+
+Example:
+
+```bash
+node pi_simulator.js gpio 17 1
+```
+
+The simulator will print messages describing the actions it would perform.
