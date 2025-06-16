@@ -1,5 +1,5 @@
 # PI_APPS
-# 🧠 Raspberry Pi 5 Software Suite - 2025xy
+# 🧠 Raspberry Pi 5 Software Suite - 2025
 
 
 A curated collection of custom software tools developed specifically for the **Raspberry Pi 5**, designed for automation, control, and edge computing use cases.
